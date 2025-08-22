@@ -1,4 +1,5 @@
 import { Feature } from "@/components/ui/Feature";
+import Form from "@/components/ui/Form";
 import {
   CodeBracketSquareIcon,
   CloudArrowUpIcon,
@@ -51,6 +52,17 @@ export default function Home() {
               <Feature key={feature.name} feature={feature} />
             ))}
           </dl>
+        </div>
+        <div className="mx-auto mt-16 max-w-2xl text-center">
+          <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl dark:text-white">
+            Your NFT awaits
+          </h2>
+          <p className="mt-2 text-lg/8 text-gray-600 dark:text-gray-400">
+            Fill out the form below to get started with your NFT creation and deployment.
+          </p>
+        </div>
+        <div className="mx-auto max-w-2xl">
+          <Form />
         </div>
       </div>
     </div>
