@@ -52,6 +52,7 @@ export default function Home() {
               <Feature key={feature.name} feature={feature} />
             ))}
           </dl>
+          <appkit-button />
         </div>
         <div className="mx-auto mt-16 max-w-2xl text-center">
           <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl dark:text-white">
