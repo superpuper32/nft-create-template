@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+
 import { Web3Provider } from "@/lib/providers";
 import "./globals.css";
 
@@ -28,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Web3Provider cookies={null}>{children}</Web3Provider>
+        <Web3Provider>{children}</Web3Provider>
       </body>
     </html>
   );
