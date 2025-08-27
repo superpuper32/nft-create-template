@@ -9,18 +9,6 @@ export default function WalletConnect() {
   if (isConnected && address) {
     return (
       <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-        <span
-          style={{
-            fontSize: "14px",
-            fontWeight: 500,
-            background: "#f3f4f6",
-            padding: "8px 12px",
-            borderRadius: "6px",
-            fontFamily: "monospace",
-          }}
-        >
-          {address.slice(0, 6)}...{address.slice(-4)}
-        </span>
         <button
           onClick={disconnect}
           style={{
