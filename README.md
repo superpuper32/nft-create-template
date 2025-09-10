@@ -20,3 +20,18 @@ User-friendly web application that allows users to create, deploy, and mint thei
 2. Browser wallet prompt appears (MetaMask/Rainbow/etc.)
 3. Upon approval, wallet address is stored
 4. Connection status persists across sessions
+
+## 🔄 Workflow
+### Normal Flow
+1. User connects wallet
+2. Uploads image file
+3. Configures NFT metadata
+4. Clicks "Create NFT"
+5. Watches progress indicators
+6. Receives success confirmation
+
+## 🔐 Security
+## 📊 Performance
+## 🐛 Error Handling
+## 📱 Responsive Design
+
