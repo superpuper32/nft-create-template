@@ -31,6 +31,11 @@ User-friendly web application that allows users to create, deploy, and mint thei
 6. Receives success confirmation
 
 ## 🔐 Security
+ 1. Wallet Security
+ 2. File Upload Security
+ 3. API Security
+ 4. Smart Contract Security
+
 ## 📊 Performance
 ## 🐛 Error Handling
 ## 📱 Responsive Design
