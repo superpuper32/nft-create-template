@@ -37,6 +37,19 @@ User-friendly web application that allows users to create, deploy, and mint thei
  4. Smart Contract Security
 
 ## 📊 Performance
+Frontend
+Blockchain
+IPFS
+
 ## 🐛 Error Handling
+Client-Side Errors
+Server-Side Errors
+Blockchain Errors
+- Transaction failures
+- Gas estimation errors
+- Network congestion
+- Contract deployment failures
+User Communication
+
 ## 📱 Responsive Design
 
